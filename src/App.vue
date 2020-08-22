@@ -1,16 +1,16 @@
 <template>
   <div id="app">
-    <Pixel/>
+    <Canvas/>
   </div>
 </template>
 
 <script>
-import Pixel from "./components/Pixel";
+import Canvas from "./components/Canvas";
 
 export default {
   name: "App",
   components: {
-    Pixel
+    Canvas
   }
 };
 </script>
