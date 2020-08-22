@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <ColorPicker/>
+    <ColorPicker :color="color"/>
     <Canvas/>
   </div>
 </template>
@@ -11,9 +11,19 @@ import ColorPicker from "./components/ColorPicker";
 
 export default {
   name: "App",
+  data: function() {
+    return {
+      color: "white"
+    };
+  },
   components: {
     Canvas,
     ColorPicker
+  },
+  mounted() {
+    this.$root.$on("updatecolor", color => {
+      this.color = color;
+    });
   }
 };
 </script>
@@ -25,6 +35,10 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  background-color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 </style>
