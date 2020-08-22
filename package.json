@@ -1,5 +1,5 @@
 {
-  "name": "vue",
+  "name": "vue-pixel-drawing-app",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -43,10 +43,6 @@
     "last 2 versions",
     "not ie <= 8"
   ],
-  "keywords": [
-    "vue",
-    "vuejs",
-    "starter"
-  ],
-  "description": "Vue.js example starter project"
+  "keywords": [],
+  "description": "We create an app that is similar to several found on mobile. It will allow you to create drawing out of different colored pixels. Even better, it will  run in the browser and have Vue.js as its foundation."
 }
