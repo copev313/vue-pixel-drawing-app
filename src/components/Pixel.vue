@@ -35,7 +35,6 @@ export default {
 .pixel.current {
   border: 4px solid black;
 }
-
 .white {
   background-color: white;
 }
@@ -48,5 +47,25 @@ export default {
 .darkblue {
   background-color: rgb(33, 150, 243);
 }
+.darkerblue {
+  background-color: rgb(18, 83, 136);
+}
+.darkestblue {
+  background-color: rgb(19, 63, 99);
+}
+.grey {
+  background-color: grey;
+}
+.greyer {
+  background-color: rgb(86, 88, 90);
+}
+.greyest {
+  background-color: rgb(53, 54, 56);
+}
+.brown {
+  background-color: rgb(87, 59, 23);
+}
+.black {
+  background-color: black;
+}
 </style>
-

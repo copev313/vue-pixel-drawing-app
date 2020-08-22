@@ -26,6 +26,9 @@ export default {
     ColorPicker
   },
   mounted() {
+    this.$root.$on("updatecolor", color => {
+      this.color = color;
+    });
     this.$root.$on("clickedpixel", index => {
       this.pixels.splice(index, 1, this.color);
     });
