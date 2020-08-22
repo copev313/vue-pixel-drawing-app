@@ -1,6 +1,6 @@
 <template>
   <div class="canvas">
-    <Pixel v-for="n in 30*30" color="blue"/>
+    <Pixel isInCanvas v-for="(color, index) in pixels" :key="index" :index="index" :color="color"/>
   </div>
 </template>
 
@@ -11,6 +11,9 @@ export default {
   name: "Canvas",
   components: {
     Pixel
+  },
+  props: {
+    pixels: Array
   }
 };
 </script>
