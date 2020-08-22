@@ -1,6 +1,6 @@
 <template>
   <div class="canvas">
-    <Pixel v-for="n in 30*30" :key="n"/>
+    <Pixel v-for="n in 30*30" color="blue"/>
   </div>
 </template>
 
