@@ -1,5 +1,50 @@
 {
-  "name": "vue-pixel-drawing-app",
+	"name": "vue-pixel-drawing-app",
+	"version": "0.1.0",
+	"private": true,
+	"scripts": {
+		"serve": "vue-cli-service serve",
+		"build": "vue-cli-service build",
+		"lint": "vue-cli-service lint",
+		"start": "node server.js"
+	},
+	"dependencies": {
+		"@vue/cli-plugin-babel": "4.1.1",
+		"@vue/cli-service": "4.5.12",
+		"express": "4.17.1",
+		"path": "0.12.7",
+		"serve-static": "1.14.1",
+		"vue": "^2.6.11"
+	},
+	"devDependencies": {
+		"@vue/cli-plugin-eslint": "4.1.1",
+		"@vue/cli-service": "4.1.1",
+		"babel-eslint": "^10.0.3",
+		"eslint": "^6.7.2",
+		"eslint-plugin-vue": "^6.0.1",
+		"vue-template-compiler": "^2.6.11"
+	},
+	"eslintConfig": {
+		"root": true,
+		"env": {
+			"node": true
+		},
+		"extends": ["plugin:vue/essential", "eslint:recommended"],
+		"rules": {},
+		"parserOptions": {
+			"parser": "babel-eslint"
+		}
+	},
+	"postcss": {
+		"plugins": {
+			"autoprefixer": {}
+		}
+	},
+	"browserslist": ["> 1%", "last 2 versions", "not ie <= 8"],
+	"keywords": [],
+	"description": ""
+}
+{  "name": "vue-pixel-drawing-app",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,6 +54,7 @@
   },
   "dependencies": {
     "@vue/cli-plugin-babel": "4.1.1",
+    "heroku": "^7.51.0",
     "vue": "^2.6.11"
   },
   "devDependencies": {
@@ -44,5 +90,55 @@
     "not ie <= 8"
   ],
   "keywords": [],
+  "description": "We create an app that is similar to several found on mobile. It will allow you to create drawing out of different colored pixels. Even better, it will  run in the browser and have Vue.js as its foundation."
+}
+
+>>>>>>> GitHub
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@vue/cli-plugin-babel": "4.1.1",
+    "heroku": "^7.51.0",
+    "vue": "^2.6.11"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-eslint": "4.1.1",
+    "@vue/cli-service": "4.1.1",
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.0.1",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "rules": {},
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ],
+  "keywords": [],
+>>>>>>> GitHub
   "description": "We create an app that is similar to several found on mobile. It will allow you to create drawing out of different colored pixels. Even better, it will  run in the browser and have Vue.js as its foundation."
 }
